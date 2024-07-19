@@ -14,16 +14,42 @@ header h1 {
   grid-template-columns: 20% 70%;
 }
 
-/* .home {
-
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 4;
+  opacity: 0.4;
 }
 
-.sidebar {
-
-} */
-
+.logo {
+  width: 30%;
+}
 
 .dp {
-  width: 80%;
+  width: 50%;
   border-radius: 50%;
+}
+.portfolioCard {
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.portfolioCard:hover {
+  box-shadow: rgba(213, 29, 250, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.portfolioCard img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.techs {
+  color: rgba(213, 29, 250);
+  font-size: 0.8em;
+  text-align: right;
 }
